@@ -1,0 +1,92 @@
+{
+  "0x61": {
+    "bnb7": {
+      "address": "0x14e02d6d9e6604014d45910f5a9d989fdb435cc5",
+      "name": "BNB",
+      "lock": 7,
+      "order": 5
+    },
+    "usdt7": {
+      "address": "0x798e48a77E5A2506186A07a7aEa983fc892d08C4",
+      "name": "USDT",
+      "lock": 7,
+      "order": 10
+    },
+    "bnb30": {
+      "address": "0x14e02d6d9e6604014d45910f5a9d989fdb435cc5",
+      "name": "BNB",
+      "lock": 30,
+      "order": 20
+    },
+    "usdt30": {
+      "address": "0x798e48a77E5A2506186A07a7aEa983fc892d08C4",
+      "name": "USDT",
+      "lock": 30,
+      "order": 25
+    },
+    "bnb180": {
+      "address": "0x14e02d6d9e6604014d45910f5a9d989fdb435cc5",
+      "name": "BNB",
+      "lock": 180,
+      "order": 30
+    },
+    "usdt180": {
+      "address": "0x798e48a77E5A2506186A07a7aEa983fc892d08C4",
+      "name": "USDT",
+      "lock": 180,
+      "order": 35
+    }
+  },
+  "0x38": {
+    "bnb7": {
+      "address": "0xD931617B771796d5f7CdC9e756bca3eC9446b46c",
+      "name": "BNB",
+      "lock": 7,
+      "order": 5
+    },
+    "usdt7": {
+      "address": "0x2D3307415e5F3f43373e8B3E2033d76a8cC5bB63",
+      "name": "USDT",
+      "lock": 7,
+      "order": 10
+    },
+    "bnb30": {
+      "address": "0xD931617B771796d5f7CdC9e756bca3eC9446b46c",
+      "name": "BNB",
+      "lock": 30,
+      "order": 20
+    },
+    "usdt30": {
+      "address": "0x2D3307415e5F3f43373e8B3E2033d76a8cC5bB63",
+      "name": "USDT",
+      "lock": 30,
+      "order": 25
+    },    
+			"bnb180": {
+      "address": "0xD931617B771796d5f7CdC9e756bca3eC9446b46c",
+      "name": "BNB",
+      "lock": 180,
+      "order": 30
+    },
+			"usdt180": {
+      "address": "0x2D3307415e5F3f43373e8B3E2033d76a8cC5bB63",
+      "name": "USDT",
+      "lock": 180,
+      "order": 35
+    }
+  },
+  "0x4e454152": {
+    "usdc7": {
+      "address": "0xD931617B771796d5f7CdC9e756bca3eC9446b46c",
+      "name": "USDC",
+      "lock": 7,
+      "order": 5
+    },
+    "usdc30": {
+      "address": "0x2D3307415e5F3f43373e8B3E2033d76a8cC5bB63",
+      "name": "USDC",
+      "lock": 30,
+      "order": 10
+    }
+  }
+}

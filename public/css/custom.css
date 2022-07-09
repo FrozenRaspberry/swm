@@ -1,0 +1,235 @@
+@font-face {
+	font-family: averta-regular;
+	src: url('../fonts/averta-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: averta-semibold;
+	src: url('../fonts/averta-semibold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: cool;
+	src: url('../fonts/cool.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: mont;
+	src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: averta-semibold,-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: white;
+}
+
+/* toast */
+.toast-body {
+	min-width: 180px;
+}
+
+/* modal */
+.modal-title {
+	font-family: averta-semibold;
+}
+
+.modal-body {
+	font-family: averta-regular;
+}
+
+
+/*PC*/
+
+tr.title-pc {
+	line-height: 120px;
+}
+
+.nav-bar-pc {
+	color: white;
+	font-family: mont;
+	font-size: 28px;
+}
+
+.logo-text-pc {
+	color: white;
+	font-family: mont;
+	font-size: 96px;
+}
+
+.logo-text-sub-pc {
+	color: white;
+	font-family: mont;
+	font-size: 44px;
+	letter-spacing: 8px;
+}
+
+.logo-text-cn-pc {
+	color: white;
+	font-family: cool;
+	font-size: 96px;
+}
+
+.logo-text-small-pc {
+	color: white;
+	font-family: mont;
+	font-size: 36px;
+	letter-spacing: 8px;
+}
+
+button.main-button.pc {
+	color: white;
+	background-color: #FF3392;
+	font-size: 40px;
+	font-family: cool;
+	border-width: 0px;
+	border-radius: 60px;
+	width: 600px;
+}
+
+div.adjust.pc {
+	color: white;
+	font-size: 40px;
+	font-family: cool;
+	border-width: 0px;
+	width: 70px;
+	text-align: center;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+}
+
+.mint-message.pc {
+	color: white;
+	font-family: mont;
+	font-size: 20px;
+}
+
+.footer-text-pc {
+	color: #E6E6E6;
+	font-family: cool;
+	font-size: 32px;
+	letter-spacing: 8px;
+}
+
+/*MOBILE*/
+tr.title {
+	line-height: 20px;
+}
+
+.logo-text {
+	color: white;
+	font-family: mont;
+	font-size: 38px;
+}
+
+.logo-text-cn {
+	color: white;
+	font-family: cool;
+	font-size: 38px;
+}
+
+.logo-text-small {
+	color: white;
+	font-family: mont;
+	font-size: 26px;
+	letter-spacing: 3px;
+}
+
+div.adjust {
+	color: white;
+	font-size: 32px;
+	font-family: cool;
+	border-width: 0px;
+	width: 70px;
+	text-align: center;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+}
+
+.mint-message {
+	color: white;
+	font-family: mont;
+	font-size: 12px;
+}
+
+.footer-text {
+	color: #E6E6E6;
+	font-family: cool;
+	font-size: 14px;
+	letter-spacing: 5px;
+}
+
+button.main-button {
+	color: white;
+	background-color: #FF3392;
+	font-size: 26px;
+	font-family: cool;
+	border-width: 0px;
+	border-radius: 30px;
+	width: 180px;
+}
+
+
+
+/* 导航栏 */
+vault-sidebar > * .nav-item {
+	width: max-content;
+}
+
+.nav-link {
+	color: #000000;
+	cursor: pointer;
+}
+
+.nav-link.active {
+	background-color: #000000 !important;
+	fill: white;
+}
+
+.nav-icon {
+	fill: inherit;
+	width: 20px;
+	height: 20px;
+}
+
+button.custom-sub {
+	min-width: 140px;
+	font-family: averta-semibold;
+	font-size: 14px;
+	color: black;
+	background-color: #ffffff;
+  border-radius: 60px;
+	border-width: 1px;
+}
+
+button#sidebar-connect-network:disabled {
+	color: #636568;
+	border-width: 0px;
+}
+
+
+
+button.custom-main {
+	font-family: averta-semibold;
+	font-size: 14px;
+	color: white;
+	background-color: #4E46B4;
+  border-radius: 8px;
+	border-width: 0px;
+  padding: 8px 47.5px;
+}
+
+button.custom-main:disabled {
+	background-color: #999CA0;
+}
+
+.invest-item-text {
+	color: #999CA0;
+	font-family: averta-regular;
+	font-size: 15px;
+}

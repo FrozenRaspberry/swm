@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- CSS JS -->
+		<link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/custom.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+		</script>
+		<script src="js/ethers/ethers-5.2.umd.min.js" type="application/javascript"></script>
+		<script src="https://cdn.jsdelivr.net/npm/keccak256@latest/keccak256.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/merkletreejs@latest/merkletree.js"></script>
+		<title>SWM</title>
+	</head>
+
+	<body style="background-color: #1A1A23;">
+		<!-- PC -->
+		<div class="d-none d-sm-block">
+			<div class="p-4"></div>
+			<div class="d-flex justify-content-between">
+				<div class="ml-5 nav-bar-pc">
+					<img src="./assets/pink_dot.png">
+					<span class="nav-bar-pc">WaiMaiDAO<span>
+				</div>
+				<div class="mr-5 d-flex align-items-center">
+					<img src="./assets/twitter.png" height="50px" onclick="window.open('https://twitter.com/waimaidao/', '_blank');">
+					<img class="ml-4 mr-4" src="./assets/discord.png" height="50px" onclick="window.open('https://discord.gg/Mdgma54VJh', '_blank');">
+					<img src="./assets/opensea.png" height="50px" onclick="window.open('https://opensea.io/collection/waimaidao', '_blank')">
+				</div>
+			</div>
+			<div class="p-4"></div>
+			<div class="row">
+				<div class="col ml-5">
+					<div>
+						<table width="120px" class="mx-auto"><tbody>
+							<tr class="title-pc">
+								<td class="d-flex justify-content-between">
+									<p class="logo-text-cn-pc">送</p>
+									<p class="logo-text-cn-pc">外</p>
+									<p class="logo-text-cn-pc">卖</p>
+									<u style="color:#FF3392" class="logo-text-pc">NFT</u>
+								</td>
+							</tr>
+							<tr class="title">
+								<td class="logo-text-sub-pc d-flex justify-content-between">
+									<p>&nbsp;</p><p>T</p><p>a</p><p>k</p><p>e</p><p>o</p><p>u</p><p>t</p><p>&nbsp;</p>
+								</td>
+							</tr>
+
+						</tbody></table>
+					</div>
+					<div class="p-3"></div>
+					<div class="logo-text-small-pc text-center mt-3 mint-status" hidden>FreeMint</div>
+					<div class="logo-text-small-pc text-center total-supply">公售已结束</div>
+					<div class="p-4"></div>
+					<div class="d-flex justify-content-center">
+						<div class="button adjust minus pc" hidden>-</div>
+						<div class="adjust number pc" hidden>2</div>
+						<div class="button adjust add pc" hidden>+</div>
+					</div>
+					<div class="d-flex justify-content-center mt-1">
+				<button class="main-button connect pc" onclick="window.open('https://opensea.io/collection/waimaidao', '_blank')">不好意思，您来晚了一步！</button>
+						<button class="main-button private-mint pc" hidden>Mint !</button>
+						<button class="main-button public-mint pc" hidden>Mint ⧫0.02</button>
+					</div>
+					<div class="text-center mt-2 mint-message pc"></div>
+				</div>
+				<div class="col mr-5 d-flex justify-content-center">
+					<img src="./assets/wmy.png" height="480px">
+				</div>
+			</div>
+			<div class="p-2"></div>
+			<div class="d-flex justify-content-center footer-text-pc">让WEB3三亿外卖员为梦想窒息</div>
+			<div class="p-4"></div>
+			<div class="col mr-5 d-flex justify-content-center">
+				<img src="./assets/roadmap-pc.png" width="780px">
+			</div>
+			<div class="p-4"></div>
+		</div>
+
+
+		<!-- 手机 -->
+		<div class="d-sm-none">
+			<div class="p-4"></div>
+			<div class="p-4"></div>
+			<div>
+				<table width="120px" class="mx-auto"><tbody>
+					<tr class="title">
+						<td class="d-flex justify-content-between">
+							<p class="logo-text-cn">送</p>
+							<p class="logo-text-cn">外</p>
+							<p class="logo-text-cn">卖</p>
+							<u style="color:#FF3392" class="logo-text">NFT</u>
+						</td>
+					</tr>
+					<tr class="title">
+						<td class="logo-text d-flex justify-content-between">
+							<p>T</p><p>a</p><p>k</p><p>e</p><p>o</p><p>u</p><p>t</p>
+						</td>
+					</tr>
+
+				</tbody></table>
+			</div>
+			<div class="d-flex justify-content-center"><img src="./assets/wmy.png" height="110px"></div>
+
+			<div class="logo-text-small text-center mt-3 mint-status">FreeMint</div>
+			<div class="logo-text-small text-center total-supply">公售已结束</div>
+			<div class="p-2"></div>
+			<div class="d-flex justify-content-center">
+				<div class="button adjust minus" hidden>-</div>
+				<div class="adjust number" hidden>2</div>
+				<div class="button adjust add" hidden>+</div>
+			</div>
+			<div class="d-flex justify-content-center mt-1">
+				<button class="main-button connect" onclick="window.open('https://opensea.io/collection/waimaidao', '_blank')" >不好意思，您来晚了一步！</button>
+				<button class="main-button private-mint" hidden>Mint !</button>
+				<button class="main-button public-mint" hidden>Mint ⧫0.02</button>
+			</div>
+			<div class="text-center mt-2 mint-message"></div>
+
+
+<!-- 
+			<div class="logo-text-small text-center">FreeMint</div>
+			<div class="logo-text-small text-center">0/1000</div>
+			<div class="p-3"></div>
+			<div class="d-flex justify-content-center"><button class="connect">连接钱包</button></div>
+ -->
+
+
+			<div class="p-2"></div>
+			<div class="d-flex justify-content-center footer-text">让WEB3三亿外卖员为梦想窒息</div>
+			<div class="p-4"></div>
+			<div class="d-flex justify-content-center">
+				<img src="./assets/twitter.png" height="32px" onclick="window.open('https://twitter.com/waimaidao/', '_blank');" >
+				<img class="ml-4 mr-4" src="./assets/discord.png" height="32px" onclick="window.open('https://discord.gg/Mdgma54VJh', '_blank');">
+				<img src="./assets/opensea.png" height="32px" onclick="window.open('https://opensea.io/collection/waimaidao', '_blank')">
+			</div>
+			<div class="p-4"></div>
+			<div class="col mr-5 d-flex justify-content-center">
+				<img src="./assets/roadmap.png" width="280px">
+			</div>
+			<div class="p-4"></div>
+			<!-- Template -->
+			<!-- Wallet Modal -->
+			<div class="modal fade" id="walletModal" tabindex="-1" role="dialog" aria-labelledby="walletModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="walletModal">Connect Wallet</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Vault Finance supports crypto wallets like <b>MetaMask</b> and <b>Trust Wallet</b>.<br />
+							If you haven't got one yet, we also provide quick start guide for new comers!
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Skip</button>
+							<button type="button" class="btn btn-primary"
+								onclick="window.open('https://docs.vaultfinance.net/get-started/create-a-wallet')">Learn How
+								to Connect</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Script -->
+		<script src="./metamask.js"></script>
+		<script src="./proof.js"></script>
+	</body>
+</html>

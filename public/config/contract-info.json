@@ -1,0 +1,31 @@
+{
+  "0x61": {
+		"BUSD": {
+			"tokenAddress": "0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7"
+		},
+		"BNB": {},
+		"USDT": {
+			"tokenAddress": "0x7ef95a0FEE0Dd31b22626fA2e10Ee6A223F8a684"
+		}
+	},
+  "0x38": {
+		"BUSD": {
+			"tokenAddress": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+		},
+		"BNB": {},
+		"USDT": {
+			"tokenAddress": "0x55d398326f99059fF775485246999027B3197955"
+		}
+	},
+  "0x4e454152": {
+		"AURORA": {
+			"tokenAddress": "0x8bec47865ade3b172a928df8f990bc7f2a3b9f79"
+		},
+		"wNEAR": {
+			"tokenAddress": "0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d"
+		},
+		"USDC": {
+			"tokenAddress": "0xb12bfca5a55806aaf64e99521918a4bf0fc40802"
+		}
+	}
+}
